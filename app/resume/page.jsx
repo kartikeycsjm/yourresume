@@ -15,10 +15,19 @@ const page = () => {
                     <span> PORTFOLIO </span>
                 </div>
             </div>
-            <div id="content">
-                <div id="overview" className='border-black w-[90%] h-[100px] flex justify-start items-center'>
-                    <h1>Overview</h1>
-                </div>
+            <div id="overview" className='mt-5 p-2 border-black w-[90%] min-h-[100px] border flex justify-start flex-col'>
+                <h1 className='underline text-'>Overview</h1>
+                <p className='text-[12px]'>Dedicated and forward-thinking Computer Science Engineering student with a passion for creating innovative
+                    solutions through web development. Seeking an entry-level position as a web developer to leverage a solid foundation
+                    in programming, problem-solving skills, and a collaborative mindset. Eager to contribute to a dynamic team and
+                    embark on a fulfilling career in the ever-evolving field of technology</p>
+            </div>
+            <div id="overview" className='mt-5 p-2 border-black w-[90%] min-h-[100px] border flex justify-start flex-col'>
+                <h1 className='underline text-'>Technical Skills</h1>
+                <ul className='list-disc'>
+                    <li>h</li>
+                </ul>
+                <p className='text-[12px]'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga sed pariatur aliquam neque corporis sunt accusantium blanditiis architecto numquam quos officiis voluptate quam quas voluptatum, doloremque accusamus at quod? Blanditiis.</p>
             </div>
         </div>
     )
